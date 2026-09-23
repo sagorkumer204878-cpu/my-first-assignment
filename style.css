@@ -149,3 +149,23 @@
     height:13.33px;
     align-items: center;
 }
+
+/* note section start */
+
+.note-container{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1360px;
+    height: 152px;
+    text-align: center;
+}
+.note-container h2{
+    font-size:48px ;
+    font-weight:bold ;
+    color: black;
+}
+.note-container p{
+    padding-top: 16px;
+    font-size:16px ;
+    color: #627382;
+}
