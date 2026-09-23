@@ -219,3 +219,167 @@
     align-items: center;
     margin: 0 auto 14px;
 }
+
+/* second brain section start */
+
+
+.features{ padding-top: 120px;
+    width: 1360px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.feature{
+    width: 700px;
+    height: 396px;
+   padding-top: 102px;
+  padding-left: 60px;
+ 
+}
+.feature h3{
+    padding-bottom: 16px;
+    font-size: 16px;
+    color: #469165;
+    font-weight:500px ;
+
+}
+.feature h2{
+    padding-bottom: 16px;
+    width: 700px;
+    height: 116px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.feature h4{
+    padding-bottom: 40px;
+    width:700px ;
+    height: 60px;
+    color:#627382;
+    font-size: 16px;
+}
+
+.line-item{
+    display: flex;
+    align-items:center;
+    gap: 7px;
+    margin-bottom: 16px;
+}
+
+.early-access{
+
+    background-color: #F7F6F2;
+    width: 1360px;
+
+    height: 384px;
+    align-items: center;
+
+    text-align: center;
+    margin: 0 auto;
+
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  
+}
+
+.early-access h2{
+
+    font-size: 40px;
+    font-weight: bold;
+
+    padding-bottom: 16px;
+}
+
+.early-access p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+
+.btn5{
+    width: 194px;
+    height: 52px;
+
+    background-color: #429566;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    gap: 5px;
+
+    cursor: pointer;
+   margin-bottom: 16px;
+}
+
+.early-access h3{
+    width: 1280px;
+    height:60px ;
+    font-size: 16px;
+    color: #627382;
+    font-weight:400 ;
+}
+
+/* footer section start */
+
+.footer{ 
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 1600px;
+    height: 384px; 
+    background-color: #001931;
+    align-items: center;
+    margin-top: 120px;
+}
+.footer-item{
+    margin: 0 auto;
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 120px 120px 164px 120px;
+    gap: 1001px;
+
+}
+
+
+.footer-item img{
+width:139px ;
+height: 60px;
+}
+
+.social {
+ color: white;
+}
+
+.social h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.social i{
+    margin-right: 22px;
+}
+.footer-line {
+    width: calc(100% - 160px);
+    height: 1px;
+    background-color: #29465b;
+    margin: 0 auto;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 22px;}
