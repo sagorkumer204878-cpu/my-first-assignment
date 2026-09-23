@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+
+.navbar{
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    text-align: center;
+    align-items: center;
+}
+.navfeature{
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn1{
+    width:164px ;
+    height: 44px;
+    border-radius:4px ;
+    background-color: #469165;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+
+/* banner section start */
+
+.banner{
+    margin: 0 auto;
+    width: 1600px;
+    height:674px ;
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+
+}
+
+.banner-content{
+    padding: 115px 120px 179.5px 120px;
+
+}
+
+.btn2{
+    color: #469165;
+    border: none;
+
+    width: 229px;
+    height: 35px;
+
+    border-radius: 100px; 
+    display: inline-flex;
+
+    align-items: center;
+    gap: 8px;
+
+    background-color: white;
+    color: #3b9465;
+
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover {
+ background: linear-gradient(to left, rgb(111, 111, 238), purple);
+}
+
+.btn2::before{
+    content: "";
+    
+    width: 9px;
+    height: 9px;
+
+    background-color: #4aa878;
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 3px rgba(74, 168, 120, 0.18),
+        0 0 7px rgba(74, 168, 120, 0.5);
+}
+
+.banner-content h2{
+    padding-top: 16px;
+    font-size:72px ;
+    font-weight: bold;
+    color: white;
+
+}
+
+.banner-content p{
+    width: 1300px;
+    height:60px;
+    color: white;
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.btn3{
+    border: none;
+    width:251px ;
+
+    height: 52px;
+    background-color: #469165;
+
+    color: white; 
+    font-size: 16px;
+
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.btn4{
+    width: 192px;
+    height:52px ;
+
+    gap: 16px; 
+    background-color: transparent;
+
+    color: white; 
+    border: 1px solid; 
+    border-radius: 4px; 
+}
+.btn4::before{
+    content: "▷";
+    font-size: 27px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+
+
+
+.bannerbtn button{
+    margin-right: 20px;
+   
+}
+
+.bannerbtn img{
+    width:15.63px;
+    height:13.33px;
+    align-items: center;
+}
